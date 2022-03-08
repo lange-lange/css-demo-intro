@@ -1,0 +1,167 @@
+
+/* CSS Document */
+
+
+font-family: 'BhuTuka Expanded One', cursive;
+
+/* Links */
+a:link {
+  color: rgb(27.5,27.5,200);
+
+}
+a:visited {
+  color: rgb(27.5,27.5,200);
+  }
+a:hover {
+  background-color: lightgreen;
+}
+
+
+/* body */
+
+body {
+margin-left: 2em;
+margin-right: 2em;
+}
+
+
+/* type waterfall */
+
+h1 {
+	position: static;
+	font-family: 'BhuTuka Expanded One', cursive;
+	font-size:5em;
+	line-height: 1.25em;
+	letter-spacing: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	margin-top: 30px;
+	line-height: 0.8em;
+	text-align: center;
+	color: 000;
+}
+h2 {
+	font-family: 'BhuTuka Expanded One', cursive;
+	font-size:3em;
+	line-height: 1.25em;
+	letter-spacing: 0px;
+	margin-left: 0px;
+	margin-bottom: 0.5em;
+	margin-top: 30px;
+	line-height: 0.8em;
+	text-align: center;
+	color: #000;
+}
+	p {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 1em;
+	font-style: normal;
+	column-count: 1;
+	line-height: 20px;
+	letter-spacing: 0.6px;
+	margin-left: auto;
+	margin-right: auto;
+	color:  black;
+	margin-top: 10px;
+	margin-bottom: 25px;
+
+}
+
+
+/* all the div layers */
+
+div {
+	padding-top: 3em;
+  padding-bottom: 3em;
+
+}
+
+
+.container {
+
+width: 400px;
+margin: 0 auto;
+
+}
+
+
+.container2 {
+
+max-width: 600px;
+margin: 0 auto;
+
+
+}
+
+
+
+.container3 {
+
+width: 100px;
+margin: 0 auto;
+
+}
+
+
+
+/* custom elements, navigation, labels for buttons which are helpful for screen readers and the semantic markup of a page */
+
+.label {
+	border-style: dotted;
+	text-decoration: none;
+  color: black;
+  background-color: hotpink;
+  text-transform: uppercase;
+  padding: 8px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;}
+}
+.success {background-color: #04AA6D;} /* Green */
+.info {background-color: #2196F3;} /* Blue */
+.warning {background-color: #ff9800;} /* Orange */
+.danger {background-color: #f44336;} /* Red */ 
+.other {background-color: #e7e7e7; color: black;} /* Gray */ 
+
+
+/* this was how we made our images responsive */
+
+.responsive {
+  width: 100%;
+    height: auto;
+  max-width: 1600px;
+}
+
+
+/* this example has a max width of 50% */
+
+.responsive2 {
+  width: 100%;
+  max-width: 49%;
+}
+
+
+/* drawing shapes with CSS: https://css-tricks.com/the-shapes-of-css/ */
+
+ #heart {
+      position: fixed;
+      width: 100px;
+      height: 90px;
+      z-index: -1;
+    }
+    #heart:before,
+    #heart:after {
+      position: absolute;
+      content: "";
+      left: 50px;
+      top: 0;
+      width: 50px;
+      height: 80px;
+      background: red;
+      border-radius: 50px 50px 0 0;
+      transform: rotate(-45deg);
+      transform-origin: 0 100%;
+    }
+    #heart:after {
+      left: 0;
+      transform: rotate(45deg);
+      transform-origin: 100% 100%;
+    }
